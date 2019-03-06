@@ -1,0 +1,21 @@
+# This a a test program
+num = 3
+if num > 0:
+    print(num, "is a positive number.")
+print("This is always printed.")
+
+num = -1
+if num > 0:
+    print(num, "is a positive number.")
+    print("This is also always printed.")
+# End of File
+print(list(range(10)))
+# number= [1,2,3,4,5,6]
+number = list(range(10))
+print("numbers are", number)
+sum = 0
+for val in number:
+    # assert isinstance(val, object)
+    sum = sum + val
+
+print("sum is = ", sum)
